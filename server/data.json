@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1.0.1",
+    "highlights": [
+      "new filters were added"
+    ],
+    "features": [
+      "new refresh button",
+      "animation added between transitions"
+    ],
+    "bug_fixes": [
+      "Security bugs were fixed"
+    ],
+    "release_Date": "11/11/2009",
+    "author": "Ron"
+  },
+  {
+    "id": "1.0.2",
+    "highlights": [
+      "xxxxxxx"
+    ],
+    "features": [
+      "xxxxxxx",
+      "yyyyyyy"
+    ],
+    "bug_fixes": [
+      "zzzzzzz  zzzzzzzz",
+      "zzzzzzz  zzzzzzzz"
+    ],
+    "release_Date": "10/10/2000",
+    "author": "Avi"
+  },
+  {
+    "id": "2.0.1",
+    "highlights": [
+      "1234567890"
+    ],
+    "features": [
+      "0987654321234567890"
+    ],
+    "bug_fixes": [
+      "[=]",
+      "+_+"
+    ],
+    "release_Date": "15/7/2021",
+    "author": "Hadas"
+  }
+]

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="main.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://cdn.polyfill.io/v2/polyfill.js?features=fetch"></script>
+   </head>
+   <body>
+
+      <div class="header">
+         <h1>
+            Version Releases Page
+         </h1>
+      </div>
+
+
+      <div class="buttons_nav_bar">
+         <button class="button" id="add_version_button">
+         Add version
+         </button>
+         <button class="button" id="update_version_button">
+         Update Version
+         </button>
+         <button class="button" id="delete_version_button">
+         Delete Version
+         </button>  
+         <div class="space"></div>
+         <button class="button" id="refresh_button">
+         Refresh
+         </button>  
+      </div>
+
+
+      <div class="content">
+
+
+         <div class="release_content_left">
+            <div>
+               <p>ID:</p>
+               <p></p>
+            </div>
+            <div>
+               <p>Highlights:</p>
+               <ul id="highlights_ul"></ul>
+            </div>
+            <div>
+               <p>Features:</p>
+               <ul id="features_ul"></ul>
+            </div>
+            <div>
+               <p>Bug Fixes:</p>
+               <ul id="bug_fixes_ul"></ul>
+            </div>
+            <div>
+               <p>Author:</p>
+               <p></p>
+            </div>
+            <div>
+               <p>Realese Date:</p>
+               <p></p>
+            </div>
+            
+         </div>
+         <div class="menu_release_right">
+         </div>
+         <div id="modal" class="modal">
+            <div class="modal-content">
+               <span class="close">&times;</span>
+               <h1 id="modal_header">Adding New Version Release</h1>
+               <div>
+                  <p for="id">Id:</p>
+                  <input id="id" type="text">
+               </div>
+               <div>
+                  <p for="Author">Author:</p>
+                  <input id="author" type="text">
+               </div>
+               <div>
+                  <p>Releases Notes:</p>
+               </div>
+               <div>
+                  <p>Highlights:</p>
+                  <button class="button button_plus" onclick="add_input('highlight')">+</button>
+               </div>
+               <div id="highlights_div" class=""></div>
+               <div>
+                  <p>Features:</p>
+                  <button class="button button_plus" onclick="add_input('feature')">+</button>
+               </div>
+               <div id="features_div" class="sub_releases_notes"></div>
+               <div>
+                  <p>Bug Fixes:</p>
+                  <button class="button button_plus" onclick="add_input('bug_fixes')">+</button>
+               </div>
+               <div id="bug_fixes_div" class="sub_releases_notes"></div>
+               <div class="modal_footer">
+                  <button id="save_button">save</button>
+                  <button id="back_button">back</button>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+      <script src="main.js"></script>
+   </body>
+</html>
